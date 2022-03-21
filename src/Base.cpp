@@ -9,6 +9,8 @@ Base::Base() {
     tamanio = 0;
 }
 
+void Base::do_something() {}
+
 int Base::getTamanio() const {
     return tamanio;
 }
@@ -23,6 +25,4 @@ string Base::toString() {
     return x.str();
 }
 
-Base::~Base() {
-
-}
+Base::~Base() {}

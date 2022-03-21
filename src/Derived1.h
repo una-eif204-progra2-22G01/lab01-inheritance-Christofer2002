@@ -13,7 +13,7 @@ private:
 public:
     Derived1();
     Derived1(int, string);
-    void do_something();
+    void do_something() override;
     const string &getSaludo() const;
     void setSaludo(const string &saludo);
     string toString();

@@ -12,7 +12,7 @@ private:
     int tamanio;
 public:
     Base();
-    virtual void do_something() = 0;
+    virtual void do_something();
     int getTamanio() const;
     void setTamanio(int tamanio);
     string toString();
