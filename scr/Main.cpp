@@ -7,10 +7,8 @@ int main(int argc, const char *argv[]) {
     Derived2 derived2;
     string saludoDerived1 = "Hi,I'm a program", saludoDerived2 = "Hi, I'm a computer";
 
-    derived1.setTamanio(20);
-    derived2.setTamanio(10);
-    derived1.setSaludo(saludoDerived1);
-    derived2.setSaludo(saludoDerived2);
+    derived1 = Derived1(20,saludoDerived1);
+    derived2 = Derived2(10,saludoDerived2);
 
     cout << "Welcome to the UNA!" << endl<<endl;
 

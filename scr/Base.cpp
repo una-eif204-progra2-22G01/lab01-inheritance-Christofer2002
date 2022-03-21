@@ -17,6 +17,12 @@ void Base::setTamanio(int tamanio) {
     Base::tamanio = tamanio;
 }
 
+string Base::toString() {
+    stringstream x;
+    x<<"Tamaño: "<<tamanio<<endl;
+    return x.str();
+}
+
 Base::~Base() {
 
 }

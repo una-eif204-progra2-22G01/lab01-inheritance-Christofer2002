@@ -27,9 +27,15 @@ void Derived1::setSaludo(const string &saludo) {
     this->saludo = saludo;
 }
 
-Derived1::~Derived1() {
-
+string Derived1::toString() {
+    stringstream x;
+    x<<"Tamaño: "<<getTamanio()<<endl;
+    x<<"Saludo: "<<saludo<< endl<< endl;
+    return x.str();
 }
+
+Derived1::~Derived1() {}
+
 
 
 

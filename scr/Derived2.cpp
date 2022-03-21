@@ -5,7 +5,7 @@
 #include "Derived2.h"
 
 Derived2::Derived2() {
-
+    saludo = "";
 }
 
 Derived2::Derived2(int tamanio, string saludo) {
@@ -26,6 +26,12 @@ const string &Derived2::getSaludo() const {
     return saludo;
 }
 
-Derived2::~Derived2() {
-
+string Derived2::toString() {
+    stringstream x;
+    x<<"Tamaño: "<<getTamanio()<<endl;
+    x<<"Saludo: "<<saludo<<endl<<endl;
+    return x.str();
 }
+
+Derived2::~Derived2() {}
+

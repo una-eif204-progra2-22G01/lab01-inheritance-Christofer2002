@@ -13,9 +13,10 @@ private:
 public:
     Derived2();
     Derived2(int, string);
-    void do_something() override;
+    void do_something();
     const string &getSaludo() const;
     void setSaludo(const string &saludo);
+    string toString();
     ~Derived2();
 };
 
