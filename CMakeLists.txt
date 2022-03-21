@@ -3,6 +3,6 @@ project(lab01-inheritance-Christofer2002)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(scr)
+include_directories(src)
 
-add_subdirectory(scr)
+add_subdirectory(src)
