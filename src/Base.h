@@ -16,7 +16,7 @@ public:
     int getTamanio() const;
     void setTamanio(int tamanio);
     string toString();
-    virtual ~Base();
+    ~Base();
 };
 
 
