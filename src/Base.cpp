@@ -9,7 +9,9 @@ Base::Base() {
     tamanio = 0;
 }
 
-void Base::do_something() {}
+void Base::do_something() {
+    cout<<"I'm Base"<<endl;
+}
 
 int Base::getTamanio() const {
     return tamanio;

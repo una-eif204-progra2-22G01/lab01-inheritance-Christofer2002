@@ -7,7 +7,7 @@
 #include "Base.h"
 
 
-class Derived1 : public Base{
+class Derived1 final: public Base{
 private:
     string saludo;
 public:

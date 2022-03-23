@@ -7,13 +7,13 @@
 #include "Base.h"
 
 
-class Derived2: public Base{
+class Derived2 final: public Base{
 private:
     string saludo;
 public:
     Derived2();
     Derived2(int, string);
-    void do_something() override;
+    void do_something() override final;
     const string &getSaludo() const;
     void setSaludo(const string &saludo);
     string toString();
